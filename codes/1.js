@@ -14,7 +14,6 @@ inquirer
 		console.log(anwsers)
 	})
 
-inquirer.anwsers = {}
 inquirer
 	.prompt([
 		{
