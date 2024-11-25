@@ -15,3 +15,19 @@ inquirer
 	})
 
 inquirer.anwsers = {}
+inquirer
+	.prompt([
+		{
+			type: 'input',
+			name: 'name',
+			message: 'Project Name?'
+		},
+		{
+			type: 'input',
+			name: 'age',
+			message: 'Your Age?'
+		}
+	])
+	.then((anwsers) => {
+		console.log(anwsers)
+	})
