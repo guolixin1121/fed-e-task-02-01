@@ -13,3 +13,5 @@ inquirer
 	.then((anwsers) => {
 		console.log(anwsers)
 	})
+
+inquirer.anwsers = {}
