@@ -13,7 +13,7 @@ inquirer
 	.then((anwsers) => {
 		console.log(anwsers)
 	})
-
+error code
 inquirer
 	.prompt([
 		{
